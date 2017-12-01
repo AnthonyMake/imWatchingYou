@@ -1,13 +1,25 @@
+/*
+An eyeball class.
+
+Put a round eye drawing at certain position 
+and show them with the show() method
+
+*/
+
 class eyeBall{
   int x,y,w,h;
   
   eyeBall(int xtemp,int ytemp, int wtemp ){
+    //set positions on create
     x=xtemp;
     y=ytemp;
     w=wtemp;
   }
   
   void show(int xface, int yface){
+    //draw the round balls
+    //and put the retina at certain position
+    
     stroke(0);
     fill(#FBFF1A);
     ellipse(x,y,w,w);
